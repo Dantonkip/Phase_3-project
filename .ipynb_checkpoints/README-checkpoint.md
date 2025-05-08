@@ -1,4 +1,4 @@
-# SYRIATEL CUSTOMER CHURN
+# SYRIATEL CUSTOMER CHURN PREDICTION IN TELECOMMUNICATION
 Author: Danton Kipngeno
 
 ## Overview
@@ -68,6 +68,9 @@ Classification Report Summary:
 - Class 1 (Churn): Precision 0.56, Recall 0.72
 
 Confusion Matrix and ROC AUC curves were used to further assess performance.
+
+Roc curve before hyperparameter tuning showed that Decision Tree classifier was still better than logistic regresion model
+![ROC curve comparison](images/ROC_curves.png)
 
 The decision tree model with fine-tuned hyperparameters exhibits superior performance, boasting the highest recall score, with accuracy and precision scores surpassing the mean values.
 
